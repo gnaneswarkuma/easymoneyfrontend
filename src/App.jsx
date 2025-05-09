@@ -13,7 +13,7 @@ import { Sapplayout } from "./routercomponents/layout/Sapplayout";
 import { Studentup } from "./routercomponents/layout/Studentup";
 import { Studentin } from "./routercomponents/layout/Studentin";
 import Surya from "./Surya";
-import { Shome } from "./reacterouterpages/SHome";
+import { Shome } from "./reacterouterpages/SHome.jsx";
 const App=()=>{
     const  router =createBrowserRouter([
         {
