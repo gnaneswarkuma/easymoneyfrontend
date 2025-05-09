@@ -1,0 +1,181 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  padding: 30px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Welcome Message */
+.welcome-message {
+  font-size: 100px;
+  font-weight: bold;
+  top: 400px;
+  position:absolute;
+  margin-bottom: 40px;
+  color: #007bff;
+}
+
+/* Login Prompt */
+.login-message {
+  font-size: 18px;
+  color: #555;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  width: 500px;
+  max-width: 400px;
+  top: 200px;
+  position: absolute;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Event List Styling */
+.event-list {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.event-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.event-item p {
+  margin: 5px 0;
+}
+/* General Styling for About Page */
+.about-page {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* About Card Styling */
+.about-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: left;
+  top: 100px;
+  position: relative;
+}
+
+.about-card h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-card ul li {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+/* General Header Styling */
+header {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Menu */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Default Link Styles */
+nav a {
+  color: #f9f7f7;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px; /* For consistency across active/inactive states */
+}
+
+/* Link Hover Effect */
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Active Link Styles */
+nav a.active {
+  background-color: #007bff;
+  color: #ffffff;
+}

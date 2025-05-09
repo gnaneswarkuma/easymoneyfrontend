@@ -1,0 +1,32 @@
+.card-carousel-container {
+  width: 600px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background:linear-gradient(45deg blue,black);
+}
+
+.card-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.card {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  font-size: x-large;
+ align-items: center;
+  /* justify-content: center;  */
+/* color: whitesmoke; */
+  flex-direction: column;
+  /* background: red; */
+}
